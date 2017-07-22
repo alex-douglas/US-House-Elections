@@ -1,4 +1,4 @@
-# Project 2: 2016 U.S. House of Representatives Elections
+# 2016 U.S. House of Representatives Elections
 
 ### Goal
 
