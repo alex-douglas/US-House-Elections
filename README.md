@@ -28,4 +28,4 @@ I will also get the margin of victory for each district in the 2014 elections, a
 6. Clean the data.
 6. Explore the data with linear regression techniques and determine the best model to predict the 2016 margins.
 
-See 'Project 2 Notebook - Alex Douglas' in the [Jupyter Notebooks folder](Jupyter Notebooks/) for a step-by-step walkthrough of the project.
+See 'Project 2 Notebook - Alex Douglas' in the [Jupyter Notebooks folder](Jupyter%20Notebooks/) for a step-by-step walkthrough of the project.
