@@ -2,13 +2,13 @@
 
 ### Goal
 
-The goal of this project is to see if we can predict the margin of victory in election results for the U.S. House of Representatives based on biographical information about the winning candidates.
+The goal of this project is to see if I can predict the margin of victory in election results for the U.S. House of Representatives based on biographical information about the winning candidates.
 
 ### Reasoning
 
-I would think that biographical information about individual politicans should have no impact on their margin of victory. Other variables are likely to drown out any influence marriage, children, or education might have on the outcome of the elections. However, the goal of this project was to develop our web scrapping skills in addition to learning about linear regression, so I am gathering biographical information for politicans since this data is available from their Wikipedia pages.
+I would think that biographical information about individual politicians should have no impact on their margin of victory. Other variables are likely to drown out any influence marriage, children, or education might have on the outcome of the elections. However, the goal of this project was to develop my web scrapping skills in addition to advancing my linear regression knowledge, so I am gathering biographical information for politicians since this data is available from their Wikipedia pages.
 
-I will also get the margin of victory for each district in the 2014 elections, as a control variable to compare against the biographical variables. I would expect this to be a massive predictor of election results in 2016, since districts tend to vote similarly from year to year, and gerrymandering has made this feature of House elections more and more true. I will also get the date they assumed office and their party, which aren't biographical variables, and I would expect these two to potentially influence the margin of victory, though mabye not as much as the margin of victory in 2014.
+I will also get the margin of victory for each district in the 2014 elections, as a control variable to compare against the biographical variables. I would expect this to be a massive predictor of election results in 2016, since districts tend to vote similarly from year to year, and gerrymandering has only served to reinforce this fact. I will also get the date each candidate assumed office and their party, which aren't biographical variables, and I would expect these two to potentially influence the margin of victory, though maybe not as much as the margin of victory in 2014.
 
 ### Project Process
 
