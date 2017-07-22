@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww25400\viewh13080\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 The goal of this project was to predict the margin of victory for the 2016 U.S. House of Representatives elections based on the biographical profile of the winning candidates. The biographical variables that I looked at included age, number of children, marital status, education, the previous occupations of the candidates before they became politicians, as well as their gender. This data was all scraped from the individual Wikipedia pages of each candidate.\
+\
+I also gathered some basic non-biographical information to compare against this biographical profile. These non-biographical stats were length in office, party affiliation, and each district\'92s margin of victory in the 2014 elections.\
+\
+My theory or my null hypothesis before doing any statistical analysis was that the biographical variables should have no impact on a candidate\'92s margin of victory. It\'92s not likely that the American public is somehow biased against large families, or something like that. But I would expect that party affiliation as well as the previous margin of victory would be able to predict the 2016 margins.\
+\
+\
+\
+So before I get into the full results of my analysis, let\'92s just play a little game here, get a little audience participation going. So here we have two winning candidates who you currently know nothing about. At this point you wouldn\'92t assume that one has a higher margin than the other. Let\'92s bring in a few variables that I looked at and see how you think they\'92d influence the margin of victory.\
+\
+So first let\'92s look at children. The candidate on the left has 4 children versus 1 child for the candidate on the right. Do you think this influences their margin of victory? No, you\'92re right, it does not. What about marital status? Correct again, that had no influence on the margin of victory. What about age? Does the American public dislike older candidates more than younger? No, that also has no effect on the margin of victory.\
+\
+Party affiliation. Will a Republican have a higher margin of victory than a similar Democrat? Yes, it turns out that that does influence the margin of victory. We\'92ll see on the next slide, but actually being a Republican in 2016 hurt your margin. Alright, lastly let\'92s look at gender. Did being a woman hurt Mimi\'92s margin of victory relative to Mark\'92s? Nope, thankfully gender appears to have no effect on a candidate\'92s margin of victory.\
+\
+\
+\
+As it turns out, only two variables were statistically significant: party affiliation as well as 2014 margin of victory. What this chart is showing is that being a Republican hurt your margin of victory by about 8.5% relative to being a Democrat. This stat actually gels pretty nicely with the narrative of the 2016 House elections, where while Republicans did retain control of the House, their majority did decrease as they lost several seats.\
+\
+And then we can see here that 2014 margins are positively correlated with 2016 margins. What that 0.63% is saying is that for a single percentage point increase in the 2014 margin, you\'92d expect a 0.63% increase in the 2016 margin. So not quite a one-to-one relationship, but still very strongly positive.\
+\
+\
+\
+So margin of victory in 2014 was the strongest predictor of 2016 margins. In fact, you could build a model with just this single variable and it would be almost just as good as if you included party affiliation. Just to show the margins for Mimi and Mark, we can see that their margins were at least in the same ballpark between 2014 and 2016, with Mimi maybe hurt a little bit because she is a Republican.\
+\
+\
+\
+Here are a few graphs to show the relationship between a couple the insignificant variables compared to the 2016 margin, as well as the relationship of the 2014 and 2016 margins. You can see there\'92s really no relationship between Age and 2016 margin. There might be kind of a positive relationship between Years in Office and 2016 margins, but it still looks pretty random and the statistical analysis said this was not significant. And then obviously the for 2014 you can clearly see a positive correlation between 2014 and 2016 margins.\
+\
+\
+\
+So just to sum up, only party affiliation and previous results mattered. Thankfully there does not appear to be any sort of implicit bias against candidates based on their biographical information.\
+\
+If I was to consider other investigations related to this, it might be more valuable to see if biographical information influences closely contested elections. In politics it doesn\'92t really matter whether you win by half a percent or 70%, all that really matters is that you win. So perhaps gathering biographical information on the losers of elections as well as the winners might reveal something that this margin of victory data didn\'92t.\
+\
+It also might be worth seeing if the margins change within a district when a new candidate runs. For example, the Republican electorate in Mimi\'92s district is not suddenly going to develop some sort of bias against women that it didn\'92t have previously, so comparing Mimi\'92s results in 2014 versus 2016 doesn\'92t really reveal any implicit bias. But if, for example, Mimi was to retire in 2018 and an American-American male was to run as the Republican candidate, we could see if his margin of victory differs significantly from Mimi\'92s and kind of parse out bias that way. \
+\
+That\'92s it, thank you!}
